@@ -1,0 +1,87 @@
+.deal{
+    box-shadow: 1px 2px 2px gray;
+    margin-bottom: 30px;
+    background-color: white;
+    .deal-header{
+        contain: '';
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        .dod{
+            font-weight: 900;
+            font-size: 20px;
+            letter-spacing: 1px;
+            .time{
+                position: relative;
+                top: 5px;
+                margin-left: 10px;
+                .alarm{
+                    color: rgba(128, 128, 128, 0.822);
+                    font-weight: lighter;
+                    font-size: 16px;
+                    font-style: italic;
+                }
+            }
+        }
+        @media screen and(max-width:400px) {
+            .dod{
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+        
+    }
+    .card-wrapper{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        padding: 0 10px;
+        margin: 0 2px;
+        box-sizing: border-box;
+        &:hover,&:active,&:focus{
+            outline: none;
+            border: none;
+            border: 2px solid grey;
+        }
+        .des{
+            contain: '';
+            z-index: 10;
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card{
+            width: 100%;
+            height: 185px;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            .card-image{
+                position: absolute;
+                top:0;
+                left: 5%;
+                z-index: 2;
+                opacity: 1;
+            }
+            img{
+                width: auto;
+                margin: auto;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+.slick-prev:before, .slick-next:before{
+    color: #2874F0;
+}
+
+}

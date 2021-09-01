@@ -1,0 +1,22 @@
+.pay{
+    contain: '';
+    aspect-ratio: 5/1;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    .pay1{
+        contain: '';
+        width: 33.33%;
+        height: 100%;
+    }
+    .pay2{
+        contain: '';
+        width: 33.33%;
+        height: 100%;
+    }
+    .pay3{
+        contain: '';
+        width: 33.33%;
+        height: 100%;
+    }
+}

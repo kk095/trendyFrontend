@@ -1,0 +1,95 @@
+.signup-container{
+    contain: '';
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .signup{
+        contain: '';
+        width: 90%;
+        height: 95vh;
+        display: flex;
+        box-shadow: 1px 3px 3px grey;
+        
+    }
+    .signup-box1{
+        content: '';
+        width: 40%;
+        height: 100%;
+        background-color: #2874F0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        @media screen and(max-width:450px) {
+            display: none;
+    }
+    .title{
+        color: white;
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 3px;
+        margin-left: 10%;
+        width: 100%;
+        height: 15%;
+    }
+    .sub-title{
+        color: #E0E0E0;
+        font-size: 3vw;
+        font-weight: lighter;
+        width: 80%;
+        letter-spacing: 2px;
+        margin-left:10%;
+        height: 25%;
+        
+    }
+    .signupimg{
+        contain: '';
+        width: 100%;
+        height: 50%;
+    }
+}
+.signup-box2{
+    content: '';
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media screen and(max-width:450px) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .oldcustom{
+        position: absolute;
+        bottom: 2px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .signupForm{
+        width: 65%;
+            height: auto;
+            @media screen and(max-width:600px) {
+                width:90%;
+            }
+            .usr{
+                width:100%;
+                margin-bottom: 20px;
+            }
+            .repass{
+                width: 100%;
+                margin-bottom: 25px;
+                
+            }
+        }
+        .lform{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}

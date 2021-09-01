@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cat{
+    contain: '';
+    width: 100%;
+    height: 15vh;
+    box-shadow: 1px 2px 2px grey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    background-color: white;
+}
+.item{
+    contain: '';
+    width: 10%;
+    height: 95%;
+    cursor: pointer;
+}
+.img{
+    contain: '';
+    width: 100%;
+    height: 75%;
+    background-color: lawngreen;
+}
+.name{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.item:hover{
+    color: #2874F0;
+}
+
+
+@media screen and (max-width:450px){
+    .name{
+        font-size: 3.5vw;
+    }
+    .house{
+        display: none;
+    }
+}
